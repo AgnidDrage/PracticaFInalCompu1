@@ -6,6 +6,6 @@ RUN pip install pip
 
 RUN pip install parameterized
 
-RUN python3 -m Final-17-12-20-main.unittest
+WORKDIR /PracticaFInalCompu1/Final-17-12-20-main
 
-CMD ["python3","-m","Final-20-05-21-main.unittest"]
+CMD ["python3","-m","testtatety"]
